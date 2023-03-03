@@ -1,0 +1,27 @@
+{
+  "name": "back-to-school-dark",
+  "displayName": "Back to school Dark",
+  "description": "BTS-dark-theme",
+  "version": "0.0.1",
+  "publisher": "BackToSchoolDarkTheme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erswatantra2001/Back-To-School-Dark-Theme"
+  },
+
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Back To School Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Back To School Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
